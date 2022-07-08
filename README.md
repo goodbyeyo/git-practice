@@ -31,6 +31,7 @@
 3. 기본 브랜치명 main 으로 변경
   - `git config -global init.defaultBranch main`
 <br>
+
 ## git 버전 만들기
 
 1. 저장소에서 명령어 실행
@@ -60,6 +61,7 @@
 9. 저장할것과 저장하지 않을것을 지정
   - `git stash --patch`
 <br>
+
 ## 커밋 내용 확인하기 
 
 1. 작업트리에 있는 파일과 스테이지에 있는 파일을 비교
@@ -97,6 +99,7 @@
 9. 커밋한 내용 수정하기
   - `git commit --amend`
 <br>
+
 ## 버전관리에서 제외하기
 
 1. gitignore 설정
@@ -111,6 +114,7 @@
   - logs 폴더 바로 안의 debug.log와 .c 파일들 : logs/debug.log, logs/*.c
   - logs 폴더 바로 안, 또는 그 안의 다른 폴더(들) 안의 debug.log, logs/**/debug.log
 <br>
+
 ## 작업 되돌리기
 
 1. 작업 트리의 변경사항 취소
@@ -170,6 +174,7 @@
    - commit 하지않고 revert하기 : `git revert --no-commit [커밋해시]`
    - 아직 커밋하지 않은 revert한 내용 취소 : `git reset --hard`
 <br>
+
 ## Git Branch
 1. 브렌치 확인
   - `git branch`
@@ -198,6 +203,7 @@
 8. 브렌치 이름 바꾸기
   - `git branch -m 기존브렌치명 새브렌치명`
 <br>
+
 ## 원격 저장소 연결
  
 1. 원격 저장소 연결하기
@@ -225,6 +231,7 @@
 6. 원격 지우기(로컬 프로젝트와의 연결만 없애는것, GitHub의 레포지토리는 지워지지 않음)
   - `git remote remove origin원격이름`
 <br>
+
 ## 충돌 해결하기 (Revase vs Merge)
 
 1. rebase 로 충돌 코드 수정
